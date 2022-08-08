@@ -27,13 +27,15 @@ const About: NextPage = () => {
         <a href="/about" className="text-gray-600 dark:text-gray-400 ml-4">
           About
         </a>
-        <a href="/setup" className="text-gray-600 dark:text-gray-400 ml-4">
+        <a href="https://github.com/DeveloperJosh/Simple-Chat/blob/master/src/server-side/Readme.md" className="text-gray-600 dark:text-gray-400 ml-4">
           Setup
         </a>
       </div>
     </div>
   </nav>
-
+  <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+    This page is under construction.
+  </h1>
 </main>
 
 <footer className="flex h-24 w-full items-center justify-center text-white">

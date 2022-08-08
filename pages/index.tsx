@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 
 <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
 
-  <nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 ">
+<nav className="bg-white px-2 sm:px-4 py-2.5 dark:bg-gray-900 fixed w-full z-20 top-0 left-0 ">
     <div className="flex justify-between items-center">
       <div className="flex items-center">
         <a href="/" className="text-3xl font-bold text-gray-900 dark:text-white">
@@ -33,7 +33,7 @@ const Home: NextPage = () => {
         <a href="/about" className="text-gray-600 dark:text-gray-400 ml-4">
           About
         </a>
-        <a href="/" className="text-gray-600 dark:text-gray-400 ml-4">
+        <a href="https://github.com/DeveloperJosh/Simple-Chat/blob/master/src/server-side/Readme.md" className="text-gray-600 dark:text-gray-400 ml-4">
           Setup
         </a>
       </div>
@@ -49,10 +49,8 @@ const Home: NextPage = () => {
   <p className="mt-3 text-2xl text-white">
     A simple chat app built with Nodejs and Socket.io
   </p>
-
-
   <div className="flex flex-col items-center justify-center mt-10">
-    <a href="/setup" className="text-white bg-blue-600 hover:bg-blue-700 font-bold py-2 px-4 rounded">
+    <a href="https://github.com/DeveloperJosh/Simple-Chat/blob/master/src/server-side/Readme.md" className="text-white bg-blue-600 hover:bg-blue-700 font-bold py-2 px-4 rounded">
       Get Started
     </a>
   </div>
