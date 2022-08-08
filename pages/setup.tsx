@@ -2,19 +2,13 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 
-const Home: NextPage = () => {
+const About: NextPage = () => {
   return (
 <div className="flex min-h-screen flex-col items-center justify-center py-2 bg-slate-700">
 
 <Head>
-  <title>Simple-Chat | Home</title>
+  <title>Simple-Chat | Set Up</title>
   <link rel="icon" href="/favicon.ico" />
-  <meta name="theme-color" content="#01a0e9" />
-    <meta
-      name="description"
-      content="Simple-Chat is a simple chat application built with Node.js and Socket.io."
-    />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
 </Head>
 
 <main className="flex w-full flex-1 flex-col items-center justify-center px-20 text-center">
@@ -33,29 +27,12 @@ const Home: NextPage = () => {
         <a href="/about" className="text-gray-600 dark:text-gray-400 ml-4">
           About
         </a>
-        <a href="/" className="text-gray-600 dark:text-gray-400 ml-4">
+        <a href="/setup" className="text-gray-600 dark:text-gray-400 ml-4">
           Setup
         </a>
       </div>
     </div>
   </nav>
-  <h1 className="text-6xl font-bold text-white">
-    Welcome to{' '}
-    <a href="https://github.com/DeveloperJosh/Simple-Chat">
-      Simple-Chat
-    </a>
-  </h1>
-
-  <p className="mt-3 text-2xl text-white">
-    A simple chat app built with Nodejs and Socket.io
-  </p>
-
-
-  <div className="flex flex-col items-center justify-center mt-10">
-    <a href="/setup" className="text-white bg-blue-600 hover:bg-blue-700 font-bold py-2 px-4 rounded">
-      Get Started
-    </a>
-  </div>
 
 </main>
 
@@ -69,4 +46,4 @@ const Home: NextPage = () => {
   )
 }
 
-export default Home
+export default About
